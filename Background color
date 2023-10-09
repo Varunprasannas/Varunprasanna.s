@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" Name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required><br><br>
+<label for="password">Password:</label>
+        <input type="password" id="Password" name="Password" required><br><br>
+       
+
+     <button type="button">Click Me!</button>
+    </form>
+<script>
+function changecolor(){
+    let randomColor=Math.floor(Math.random()*16777215).toString(16);
+    document.body.style.background='#'+randomColor;
+}
+setInterval(changecolor,1000);
+</script>
+</body>
+</html>
